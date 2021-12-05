@@ -1,0 +1,76 @@
+:root{
+
+    --soft-blue: hsl(215, 51%, 70%); 
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --Very-dark-blue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+}
+
+body{
+    background-color: var(--very-dark-blue-main);
+}
+
+*{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: var(--white);
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4{
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    width: 340px;
+    background-color: var(--very-dark-blue-card);
+    padding: 15px;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0) ;
+}
+
+.img-fluid{
+    border-radius: 5px;
+}
+
+.textBody{
+    color: var(--soft-blue);
+    font-weight: 300px;
+}
+
+.margin-custom{
+    margin-top: 24px;
+}
+
+.text-eth{
+    color: var(--cyan);
+}
+
+.line-sep{
+    height: 1px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: var(--soft-blue);
+}
+
+.avatar-pic{
+    width: 32px;
+    height: 32px;
+}
+
+.text-pic{
+    font-size: 12px;
+}
+
+.signature{
+    color: var(--soft-blue); 
+    font-size: 12px;
+}
+
+
+.swiper {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+  
+  }
